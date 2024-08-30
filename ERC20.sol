@@ -9,7 +9,7 @@ contract Harshith is ERC20
 
     modifier onlyKohli() 
     {
-        require(msg.sender == Kohli, "Only the contract King can perform this action");
+        require(msg.sender == Kohli, "Only the contract Kohli can perform this action");
         _;
     }
 
